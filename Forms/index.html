@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        body{
+            background-color: #414141;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="url" method="get" autocomplete="off" enctype="multipart/form-data" 
+    >
+        <label for="fname">First Name : </label>
+        <input type="text" name="" id="fname" placeholder="first name">
+
+        <br />
+
+
+
+        <label for="lname">Last Name : </label>
+        <input type="text" name="" id="lname" placeholder="last name">
+
+        <br />
+
+        <button type="submit">Submit</button>
+        
+
+    </form>
+
+</body>
+</html>
+
+<!-- 
+saare elements ek sath submit hote hai 
+
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+
+
+Forms Attributes 
+1. actions 
+   url ( eg. forms.php ) ( where we have to submit )
+
+2. method 
+   get - clear text form ( visible on url )
+   post - encrypted forms 
+
+3. autocomplete
+    suggestion to fill details 
+
+4. enctype 
+    application/x-www-form-urlencoded: The default value.
+    multipart/form-data: Use this if the form contains <input> elements with type=file.
+    text/plain: Useful for debugging purposes.
+
+    "multipart/form-data" ( images upload kar sakte h forms me)
+
+5. novalidate ( validate or send it is no need to validate [ will take care in backend ] )
+    This Boolean attribute indicates that the form shouldn't be validated when submitted.
+
+6. target : "_blank" , ..... 
+        
+
+
+ -->
+
+
+
+ <!-- 
+
+    reset button in form 
+
+  -->
